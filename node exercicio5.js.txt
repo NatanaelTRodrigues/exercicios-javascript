@@ -1,0 +1,10 @@
+node exercicio5.js
+
+
+
+function calcularNumero(num) {
+    console.log("Dobro:", num * 2);
+    console.log("Triplo:", num * 3);
+    console.log("Quadrado:", num ** 2);
+}
+calcularNumero(5);

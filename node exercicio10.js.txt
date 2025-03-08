@@ -1,0 +1,9 @@
+node exercicio10.js
+
+let numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let pares = numeros2.filter(n => n % 2 === 0);
+let dobrados = pares.map(n => n * 2);
+let soma = dobrados.reduce((acc, n) => acc + n, 0);
+console.log("Pares:", pares);
+console.log("Dobrados:", dobrados);
+console.log("Soma:", soma);

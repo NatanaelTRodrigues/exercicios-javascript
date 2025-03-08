@@ -1,0 +1,10 @@
+notepad exercicio1.js
+
+function manipularString(str) {
+    console.log("Maiúsculas:", str.toUpperCase());
+    console.log("Minúsculas:", str.toLowerCase());
+    console.log("Invertida:", str.split("").reverse().join(""));
+    console.log("Substituição:", str.replace(/a/g, "x"));
+}
+
+manipularString("JavaScript");

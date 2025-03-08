@@ -1,0 +1,7 @@
+node exercicio7.js
+
+
+let frutas = ["Maçã", "Banana", "Abacaxi", "Laranja"];
+console.log("Maiúsculas:", frutas.map(f => f.toUpperCase()));
+console.log("Filtradas:", frutas.filter(f => f.startsWith("A")));
+console.log("Comprimentos:", frutas.map(f => f.length));
